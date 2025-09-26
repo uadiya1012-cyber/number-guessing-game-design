@@ -1,0 +1,18 @@
+Start
+	Set random = (1,100)
+	Display "Sain baina uu ta 1-100 iin hoorond too taah togloomond orloo"
+	Display "Ta 1-100 hoorond duriin too oruulna uu"
+	Get user_number
+	While random != user_number 100
+		If random =< user_number; then
+			Display "tanii too baga bn"
+			Get user_number
+		Else => user_number; then
+			Display "tanii ih bn"
+			Get user_number
+		Endif
+	Endwhile
+	If random == user_number;
+		Display "zuw taalaa bayr hurgie"
+	Endif
+End
